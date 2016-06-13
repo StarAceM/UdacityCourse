@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Sunshine</string>
+    <string name="day">Day Holder</string>
+    <string name="day_high_temp">day high</string>
+    <string name="day_low_temp">day low</string>
 </resources>
