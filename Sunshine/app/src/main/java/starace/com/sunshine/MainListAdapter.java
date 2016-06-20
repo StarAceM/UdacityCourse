@@ -15,6 +15,7 @@ import java.util.List;
 public class MainListAdapter extends ArrayAdapter<MainListItem> {
     private Context context;
 
+
     public MainListAdapter(Context context, int resource, List<MainListItem> objects) {
         super(context, resource, objects);
     }

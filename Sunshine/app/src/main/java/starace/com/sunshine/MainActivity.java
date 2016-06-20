@@ -13,6 +13,7 @@ import android.widget.ListView;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+    private static final String ApiKey = "8e530f03adc24da917719b4396a58e4a";
 
 
     @Override
