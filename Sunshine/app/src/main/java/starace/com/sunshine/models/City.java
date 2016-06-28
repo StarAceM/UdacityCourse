@@ -1,4 +1,4 @@
-package starace.com.sunshine;
+package starace.com.sunshine.models;
 
 /**
  * Created by mstarace on 6/20/16.
