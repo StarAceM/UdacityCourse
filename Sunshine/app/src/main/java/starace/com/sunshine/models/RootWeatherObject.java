@@ -1,13 +1,13 @@
-package starace.com.sunshine;
+package starace.com.sunshine.models;
 
 /**
  * Created by mstarace on 6/20/16.
  */
 public class RootWeatherObject {
     private City city;
-    private WeatherList[] list;
+    private ForecastDay[] list;
 
-    public RootWeatherObject(City city, WeatherList[] list) {
+    public RootWeatherObject(City city, ForecastDay[] list) {
         this.city = city;
         this.list = list;
     }
@@ -16,7 +16,7 @@ public class RootWeatherObject {
         return city;
     }
 
-    public WeatherList[] getList() {
+    public ForecastDay[] getList() {
         return list;
     }
 }
